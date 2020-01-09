@@ -15,9 +15,7 @@ The goals / steps of this project are the following:
 
 ---
 
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
+![image1](./examples/grayscale.jpg "Grayscale")
 
 ---
 
@@ -36,8 +34,8 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 For this function to draw a single line as it was not possible with the normal draw_lines function for middle line as its dotted-type. I've made use of averaging of slopes, x co-ordiante and y co-ordinate to calculate top x and bottom x co-ordinate to draw a straight line.
 
 ---
-![./CarND-LaneLines-P1/test_images/solidWhiteCurve.jpg][original image]
-![./CarND-LaneLines-P1/test_images_output/solidWhiteCurve.png][image after lane detection]
+![original image](./test_images/solidWhiteCurve.jpg)
+![image after lane detection](./test_images_output/solidWhiteCurve.png)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
